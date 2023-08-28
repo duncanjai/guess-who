@@ -19,6 +19,11 @@ img {
     align-items: center ;
 }
 
+.mystery-card {
+    text-align: center ;
+    font-weight: bold ;
+}
+
 .chosen {
    padding: 10px ; 
    background-color: white ;
@@ -47,6 +52,15 @@ img {
     background: white ;
     padding: 10px ;
     border-radius: 10px ;
+    text-align: center ;
+    font-weight: bold ;
+    box-shadow: 1px 5px 10px #00000030 ;
+}
+
+.card:hover {
+    cursor: pointer ;
+    padding: 6px ;
+    transition: 0.5s ;
 }
 
 .instructions {
@@ -54,4 +68,8 @@ img {
     border-style: solid ;
     border-color: white ;
     padding: 20px ;
+}
+
+h2 {
+    text-align: center ;
 }
